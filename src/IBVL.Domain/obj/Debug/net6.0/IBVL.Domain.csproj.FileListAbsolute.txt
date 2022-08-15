@@ -1,0 +1,15 @@
+C:\IBVL\IBVL\src\IBVL.Domain\bin\Debug\net6.0\IBVL.Domain.deps.json
+C:\IBVL\IBVL\src\IBVL.Domain\bin\Debug\net6.0\IBVL.Domain.dll
+C:\IBVL\IBVL\src\IBVL.Domain\bin\Debug\net6.0\IBVL.Domain.pdb
+C:\IBVL\IBVL\src\IBVL.Domain\bin\Debug\net6.0\IBVL.Domain.Core.dll
+C:\IBVL\IBVL\src\IBVL.Domain\bin\Debug\net6.0\IBVL.Domain.Core.pdb
+C:\IBVL\IBVL\src\IBVL.Domain\obj\Debug\net6.0\IBVL.Domain.csproj.AssemblyReference.cache
+C:\IBVL\IBVL\src\IBVL.Domain\obj\Debug\net6.0\IBVL.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\IBVL\IBVL\src\IBVL.Domain\obj\Debug\net6.0\IBVL.Domain.AssemblyInfoInputs.cache
+C:\IBVL\IBVL\src\IBVL.Domain\obj\Debug\net6.0\IBVL.Domain.AssemblyInfo.cs
+C:\IBVL\IBVL\src\IBVL.Domain\obj\Debug\net6.0\IBVL.Domain.csproj.CoreCompileInputs.cache
+C:\IBVL\IBVL\src\IBVL.Domain\obj\Debug\net6.0\IBVL.Domain.csproj.CopyComplete
+C:\IBVL\IBVL\src\IBVL.Domain\obj\Debug\net6.0\IBVL.Domain.dll
+C:\IBVL\IBVL\src\IBVL.Domain\obj\Debug\net6.0\refint\IBVL.Domain.dll
+C:\IBVL\IBVL\src\IBVL.Domain\obj\Debug\net6.0\IBVL.Domain.pdb
+C:\IBVL\IBVL\src\IBVL.Domain\obj\Debug\net6.0\ref\IBVL.Domain.dll

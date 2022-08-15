@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "7Vi9nNzypvH6gQEAW3gBz4Q6qaU/jwAruSF+C94/xMVv4qax8d2AYgPA+Bu5n6GFmXMZvSr3bkcxemn/D5buWQ==",
+  "success": true,
+  "projectFilePath": "C:\\IBVL\\IBVL\\src\\IBVL.Domain.Core\\IBVL.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LEL\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
+    "C:\\Users\\LEL\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.0\\fluentvalidation.dependencyinjectionextensions.11.2.0.nupkg.sha512",
+    "C:\\Users\\LEL\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

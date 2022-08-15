@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "y3mumy18FK6SqdIKvrJDZ1jghmLdwT1jhi/xc+19vgY=",
+  "Source": "IBLV.Web.Api",
+  "BasePath": "_content/IBLV.Web.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
