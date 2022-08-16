@@ -13,6 +13,9 @@ namespace IBVL.Data.Mappings
     {
         public void Configure(EntityTypeBuilder<Endereco> builder)
         {
+
+            builder.HasKey(e => e.Id);
+
             builder.Property(x => x.Bairro)
                  .IsRequired()
                  .HasMaxLength(80);
@@ -31,11 +34,17 @@ namespace IBVL.Data.Mappings
             builder.Property(x => x.Logradouro)
                .IsRequired()
                .HasMaxLength(100);
+
             builder.Property(x => x.Numero)
                .IsRequired()
                .HasMaxLength(12);
 
-            
+            // builder.Property<Guid>("MembroId");
+
+            //builder.HasOne(m => m.Membro)
+            //   .WithOne(e => e.Endereco);
+
+
 
 
 

@@ -776,7 +776,7 @@
       ]
     },
     "Microsoft.CSharp/4.5.0": {
-      "sha512": "EGoBmf3Na2ppbhPePDE9PlX81r1HuOZH5twBrq7couJZiPTjUnD3648balerQJO6EJ8Sj+43+XuRwQ7r+3tE3w==",
+      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
       "path": "microsoft.csharp/4.5.0",
       "files": [
@@ -1813,7 +1813,7 @@
       ]
     },
     "System.Security.Cryptography.Cng/4.5.0": {
-      "sha512": "O4tqXxWCD8y1IU1VTgzbuBFwoRahrADhDUxHjwezhHCsqyFNyQ5EytjWBxu0EsZuH14b4UO2pFkG063K2h/9Ug==",
+      "sha512": "WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
       "type": "package",
       "path": "system.security.cryptography.cng/4.5.0",
       "files": [
@@ -2093,11 +2093,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\IBVL\\IBVL\\src\\IBLV.Web.Api\\IBLV.Web.Api.csproj",
+      "projectUniqueName": "C:\\IBVL\\sistema-iblv\\src\\IBLV.Web.Api\\IBLV.Web.Api.csproj",
       "projectName": "IBLV.Web.Api",
-      "projectPath": "C:\\IBVL\\IBVL\\src\\IBLV.Web.Api\\IBLV.Web.Api.csproj",
+      "projectPath": "C:\\IBVL\\sistema-iblv\\src\\IBLV.Web.Api\\IBLV.Web.Api.csproj",
       "packagesPath": "C:\\Users\\LEL\\.nuget\\packages\\",
-      "outputPath": "C:\\IBVL\\IBVL\\src\\IBLV.Web.Api\\obj\\",
+      "outputPath": "C:\\IBVL\\sistema-iblv\\src\\IBLV.Web.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2117,11 +2117,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\IBVL\\IBVL\\src\\IBVL.Data\\IBVL.Data.csproj": {
-              "projectPath": "C:\\IBVL\\IBVL\\src\\IBVL.Data\\IBVL.Data.csproj"
+            "C:\\IBVL\\sistema-iblv\\src\\IBVL.Data\\IBVL.Data.csproj": {
+              "projectPath": "C:\\IBVL\\sistema-iblv\\src\\IBVL.Data\\IBVL.Data.csproj"
             },
-            "C:\\IBVL\\IBVL\\src\\IBVL.Domain\\IBVL.Domain.csproj": {
-              "projectPath": "C:\\IBVL\\IBVL\\src\\IBVL.Domain\\IBVL.Domain.csproj"
+            "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain\\IBVL.Domain.csproj": {
+              "projectPath": "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain\\IBVL.Domain.csproj"
             }
           }
         }
@@ -2163,7 +2163,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,6 +13,9 @@ namespace IBVL.Data.Mappings
     {
         public void Configure(EntityTypeBuilder<Usuario> builder)
         {
+
+            builder.HasKey(e => e.Id);
+
             builder.Property(u => u.Nome)
                 .IsRequired()
                 .HasMaxLength(100);
@@ -25,6 +28,7 @@ namespace IBVL.Data.Mappings
             builder.Property(u => u.Senha)
                 .IsRequired()
                 .HasMaxLength(8);
+            builder.Ignore(u => u.Membro);
                    
         }
     }

@@ -11,14 +11,18 @@ namespace IBVL.Domain.Entities
 {
     public class Usuario : Entity
     {
-        public virtual Guid MembroId { get; set; }
+       // public virtual Guid MembroId { get; set; }
 
         public string? Nome { get; private set; }
         public string? Email { get; private set; }
         public string? Senha { get; private set; }
 
-        public virtual Membro? Membro { get; set; }
+        public  Membro? Membro { get; set; }
 
+        protected Usuario()
+        {
+
+        }
         public Usuario(string? nome, string? email, string? senha)
         {
             Nome = nome;

@@ -10,3 +10,15 @@ C:\IBVL\IBVL\src\IBVL.Domain.Core\obj\Debug\net6.0\IBVL.Domain.Core.dll
 C:\IBVL\IBVL\src\IBVL.Domain.Core\obj\Debug\net6.0\refint\IBVL.Domain.Core.dll
 C:\IBVL\IBVL\src\IBVL.Domain.Core\obj\Debug\net6.0\IBVL.Domain.Core.pdb
 C:\IBVL\IBVL\src\IBVL.Domain.Core\obj\Debug\net6.0\ref\IBVL.Domain.Core.dll
+C:\IBVL\sistema-iblv\src\IBVL.Domain.Core\bin\Debug\net6.0\IBVL.Domain.Core.deps.json
+C:\IBVL\sistema-iblv\src\IBVL.Domain.Core\bin\Debug\net6.0\IBVL.Domain.Core.dll
+C:\IBVL\sistema-iblv\src\IBVL.Domain.Core\bin\Debug\net6.0\IBVL.Domain.Core.pdb
+C:\IBVL\sistema-iblv\src\IBVL.Domain.Core\obj\Debug\net6.0\IBVL.Domain.Core.csproj.AssemblyReference.cache
+C:\IBVL\sistema-iblv\src\IBVL.Domain.Core\obj\Debug\net6.0\IBVL.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\IBVL\sistema-iblv\src\IBVL.Domain.Core\obj\Debug\net6.0\IBVL.Domain.Core.AssemblyInfoInputs.cache
+C:\IBVL\sistema-iblv\src\IBVL.Domain.Core\obj\Debug\net6.0\IBVL.Domain.Core.AssemblyInfo.cs
+C:\IBVL\sistema-iblv\src\IBVL.Domain.Core\obj\Debug\net6.0\IBVL.Domain.Core.csproj.CoreCompileInputs.cache
+C:\IBVL\sistema-iblv\src\IBVL.Domain.Core\obj\Debug\net6.0\IBVL.Domain.Core.dll
+C:\IBVL\sistema-iblv\src\IBVL.Domain.Core\obj\Debug\net6.0\refint\IBVL.Domain.Core.dll
+C:\IBVL\sistema-iblv\src\IBVL.Domain.Core\obj\Debug\net6.0\IBVL.Domain.Core.pdb
+C:\IBVL\sistema-iblv\src\IBVL.Domain.Core\obj\Debug\net6.0\ref\IBVL.Domain.Core.dll

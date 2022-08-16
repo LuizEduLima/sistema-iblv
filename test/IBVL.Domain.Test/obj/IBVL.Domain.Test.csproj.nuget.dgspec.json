@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\IBVL\\IBVL\\test\\IBVL.Domain.Test\\IBVL.Domain.Test.csproj": {}
+    "C:\\IBVL\\sistema-iblv\\test\\IBVL.Domain.Test\\IBVL.Domain.Test.csproj": {}
   },
   "projects": {
-    "C:\\IBVL\\IBVL\\src\\IBVL.Domain.Core\\IBVL.Domain.Core.csproj": {
+    "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain.Core\\IBVL.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\IBVL\\IBVL\\src\\IBVL.Domain.Core\\IBVL.Domain.Core.csproj",
+        "projectUniqueName": "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain.Core\\IBVL.Domain.Core.csproj",
         "projectName": "IBVL.Domain.Core",
-        "projectPath": "C:\\IBVL\\IBVL\\src\\IBVL.Domain.Core\\IBVL.Domain.Core.csproj",
+        "projectPath": "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain.Core\\IBVL.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\LEL\\.nuget\\packages\\",
-        "outputPath": "C:\\IBVL\\IBVL\\src\\IBVL.Domain.Core\\obj\\",
+        "outputPath": "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -67,18 +67,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\IBVL\\IBVL\\src\\IBVL.Domain\\IBVL.Domain.csproj": {
+    "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain\\IBVL.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\IBVL\\IBVL\\src\\IBVL.Domain\\IBVL.Domain.csproj",
+        "projectUniqueName": "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain\\IBVL.Domain.csproj",
         "projectName": "IBVL.Domain",
-        "projectPath": "C:\\IBVL\\IBVL\\src\\IBVL.Domain\\IBVL.Domain.csproj",
+        "projectPath": "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain\\IBVL.Domain.csproj",
         "packagesPath": "C:\\Users\\LEL\\.nuget\\packages\\",
-        "outputPath": "C:\\IBVL\\IBVL\\src\\IBVL.Domain\\obj\\",
+        "outputPath": "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -98,8 +98,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\IBVL\\IBVL\\src\\IBVL.Domain.Core\\IBVL.Domain.Core.csproj": {
-                "projectPath": "C:\\IBVL\\IBVL\\src\\IBVL.Domain.Core\\IBVL.Domain.Core.csproj"
+              "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain.Core\\IBVL.Domain.Core.csproj": {
+                "projectPath": "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain.Core\\IBVL.Domain.Core.csproj"
               }
             }
           }
@@ -128,18 +128,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\IBVL\\IBVL\\test\\IBVL.Domain.Test\\IBVL.Domain.Test.csproj": {
+    "C:\\IBVL\\sistema-iblv\\test\\IBVL.Domain.Test\\IBVL.Domain.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\IBVL\\IBVL\\test\\IBVL.Domain.Test\\IBVL.Domain.Test.csproj",
+        "projectUniqueName": "C:\\IBVL\\sistema-iblv\\test\\IBVL.Domain.Test\\IBVL.Domain.Test.csproj",
         "projectName": "IBVL.Domain.Test",
-        "projectPath": "C:\\IBVL\\IBVL\\test\\IBVL.Domain.Test\\IBVL.Domain.Test.csproj",
+        "projectPath": "C:\\IBVL\\sistema-iblv\\test\\IBVL.Domain.Test\\IBVL.Domain.Test.csproj",
         "packagesPath": "C:\\Users\\LEL\\.nuget\\packages\\",
-        "outputPath": "C:\\IBVL\\IBVL\\test\\IBVL.Domain.Test\\obj\\",
+        "outputPath": "C:\\IBVL\\sistema-iblv\\test\\IBVL.Domain.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -159,8 +159,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\IBVL\\IBVL\\src\\IBVL.Domain\\IBVL.Domain.csproj": {
-                "projectPath": "C:\\IBVL\\IBVL\\src\\IBVL.Domain\\IBVL.Domain.csproj"
+              "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain\\IBVL.Domain.csproj": {
+                "projectPath": "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain\\IBVL.Domain.csproj"
               }
             }
           }
@@ -211,7 +211,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

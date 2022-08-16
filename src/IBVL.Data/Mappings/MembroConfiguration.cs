@@ -13,6 +13,8 @@ namespace IBVL.Data.Mappings
     {
         public void Configure(EntityTypeBuilder<Membro> builder)
         {
+            builder.HasKey(e => e.Id);
+
             builder.Property(m => m.Nome)
                 .IsRequired()
                 .HasMaxLength(100);
@@ -29,15 +31,13 @@ namespace IBVL.Data.Mappings
 
             builder.Property(m => m.TelefoneCelular)
                .IsRequired();
+            builder.Ignore(m => m.Endereco);
 
             builder.HasOne(m => m.Usuario)
-                 .WithOne(u => u.Membro);
+                .WithOne(u => u.Membro);
+                
+                
 
-            builder.HasOne(e => e.Endereco)
-                .WithOne(m => m.Membro);
-               
-
-           
         }
     }
 }

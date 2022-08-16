@@ -4,6 +4,7 @@ using IBVL.Domain.Core.Enums;
 using IBVL.Domain.Valitadors;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,9 +13,7 @@ namespace IBVL.Domain.Entities
 {
     public class Membro : Entity
     {
-
-        
-        public Guid UsuarioId { get; set; }
+     
         public string Nome { get; private set; }
         public DateTime DateDeNascimmento { get; private set; }
         public EstadoCivil EstadoCivil { get; private set; }
@@ -23,20 +22,27 @@ namespace IBVL.Domain.Entities
         public string TelefoneContato { get; private set; }
 
         public string? Foto { get; set; }
-        public virtual Endereco Endereco { get; set; }
-        public virtual Usuario Usuario { get; set; }
 
-        protected Membro() { }
+    
+        public  Endereco Endereco { get; private set; }
+        public Guid UsuarioId { get; private set; }
+        public  Usuario Usuario { get; set; }
+
+        protected Membro()
+        {
+
+        }
+      
 
         public Membro(string nome, DateTime dataDeNascimento, string? foto, EstadoCivil estadoCivil,
-                      Endereco endereco, string telefoneResidencia, string telefoneCelular,
+                     string telefoneResidencia, string telefoneCelular,
                       string telefoneContato)
         {
             Nome = nome;
             DateDeNascimmento = dataDeNascimento;
             Foto = foto;
             EstadoCivil = estadoCivil;
-            Endereco = endereco;
+            
             TelefoneResidencia = telefoneResidencia;
             TelefoneCelular = telefoneCelular;
             TelefoneContato = telefoneContato;
@@ -49,9 +55,9 @@ namespace IBVL.Domain.Entities
         {
             EstadoCivil = EstadoCivil;
         }
-        public void AtualizarEndereco(Endereco endereco)
+        public void AtualizarEndereco(Endereco novoendereco)
         {
-            Endereco = endereco;
+            Endereco = novoendereco;
         }
         public void AtualizarTelefoneResidencia(string numero) => TelefoneResidencia = numero;
         public void AtualizarTelefoneCelular(string numero) => TelefoneCelular = numero;

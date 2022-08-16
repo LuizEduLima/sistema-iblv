@@ -1996,7 +1996,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -3894,7 +3894,7 @@
       ]
     },
     "System.Net.Http/4.3.0": {
-      "sha512": "Z1UfSF6dlpCdZdxh6LeoGlYH+q6ptG/iiIWgUUeKhE3DbQACmZkU7Sz2nOX0qdHjz72MOdYRbkSJ5Qwl6sZgvg==",
+      "sha512": "sYg+FtILtRQuYWSIAuNOELwVuVsxVyJGWQyOnlAzhV4xvhyFnON1bAzYYC+jjRW8JREM45R0R5Dgi8MTC5sEwA==",
       "type": "package",
       "path": "system.net.http/4.3.0",
       "files": [
@@ -4419,7 +4419,7 @@
       ]
     },
     "System.Reflection.Metadata/1.6.0": {
-      "sha512": "I4aWCii7N1bmn43vviRfJQYW6UAco1G/CcjJouvgGdb/sr2BRTSnddhaPMg2oxu9VHFn8T1z3dTLq0pna8zmtA==",
+      "sha512": "COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
       "type": "package",
       "path": "system.reflection.metadata/1.6.0",
       "files": [
@@ -6028,11 +6028,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\IBVL\\IBVL\\test\\IBVL.Domain.Test\\IBVL.Domain.Test.csproj",
+      "projectUniqueName": "C:\\IBVL\\sistema-iblv\\test\\IBVL.Domain.Test\\IBVL.Domain.Test.csproj",
       "projectName": "IBVL.Domain.Test",
-      "projectPath": "C:\\IBVL\\IBVL\\test\\IBVL.Domain.Test\\IBVL.Domain.Test.csproj",
+      "projectPath": "C:\\IBVL\\sistema-iblv\\test\\IBVL.Domain.Test\\IBVL.Domain.Test.csproj",
       "packagesPath": "C:\\Users\\LEL\\.nuget\\packages\\",
-      "outputPath": "C:\\IBVL\\IBVL\\test\\IBVL.Domain.Test\\obj\\",
+      "outputPath": "C:\\IBVL\\sistema-iblv\\test\\IBVL.Domain.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6052,8 +6052,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\IBVL\\IBVL\\src\\IBVL.Domain\\IBVL.Domain.csproj": {
-              "projectPath": "C:\\IBVL\\IBVL\\src\\IBVL.Domain\\IBVL.Domain.csproj"
+            "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain\\IBVL.Domain.csproj": {
+              "projectPath": "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain\\IBVL.Domain.csproj"
             }
           }
         }
@@ -6104,7 +6104,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
