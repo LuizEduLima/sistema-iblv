@@ -1,4 +1,5 @@
-﻿using IBVL.Domain.Entities;
+﻿using IBVL.Domain.Core;
+using IBVL.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,21 +9,16 @@ using System.Threading.Tasks;
 
 namespace IBVL.Data.Context
 {
-    public class SqlServerContext:DbContext
+    public class SqlServerContext :  DbContext
     {
 
         public DbSet<Usuario> usuarios { get; set; }
         public DbSet<Endereco> Enderecos { get; set; }
         public DbSet<Membro> Membros { get; set; }
 
-        public SqlServerContext()
-        {
+        public SqlServerContext(){}
+        public SqlServerContext(DbContextOptions<SqlServerContext>options):base(options){ }
 
-        }
-        public SqlServerContext(DbContextOptions<SqlServerContext>options):base(options)
-        {
-
-        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(SqlServerContext).Assembly);
@@ -34,5 +30,7 @@ namespace IBVL.Data.Context
             optionsBuilder.UseSqlServer(connection);
           //  base.OnConfiguring(optionsBuilder);
         }
+
+      
     }
 }

@@ -121,7 +121,6 @@ C:\IBVL\sistema-iblv\src\IBLV.Web.Api\obj\Debug\net6.0\IBLV.Web.Api.GeneratedMSB
 C:\IBVL\sistema-iblv\src\IBLV.Web.Api\obj\Debug\net6.0\IBLV.Web.Api.AssemblyInfoInputs.cache
 C:\IBVL\sistema-iblv\src\IBLV.Web.Api\obj\Debug\net6.0\IBLV.Web.Api.AssemblyInfo.cs
 C:\IBVL\sistema-iblv\src\IBLV.Web.Api\obj\Debug\net6.0\IBLV.Web.Api.csproj.CoreCompileInputs.cache
-C:\IBVL\sistema-iblv\src\IBLV.Web.Api\obj\Debug\net6.0\IBLV.Web.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\IBVL\sistema-iblv\src\IBLV.Web.Api\obj\Debug\net6.0\IBLV.Web.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\IBVL\sistema-iblv\src\IBLV.Web.Api\obj\Debug\net6.0\staticwebassets.build.json
 C:\IBVL\sistema-iblv\src\IBLV.Web.Api\obj\Debug\net6.0\staticwebassets.development.json
@@ -132,3 +131,7 @@ C:\IBVL\sistema-iblv\src\IBLV.Web.Api\obj\Debug\net6.0\refint\IBLV.Web.Api.dll
 C:\IBVL\sistema-iblv\src\IBLV.Web.Api\obj\Debug\net6.0\IBLV.Web.Api.pdb
 C:\IBVL\sistema-iblv\src\IBLV.Web.Api\obj\Debug\net6.0\IBLV.Web.Api.genruntimeconfig.cache
 C:\IBVL\sistema-iblv\src\IBLV.Web.Api\obj\Debug\net6.0\ref\IBLV.Web.Api.dll
+C:\IBVL\sistema-iblv\src\IBLV.Web.Api\bin\Debug\net6.0\AutoMapper.dll
+C:\IBVL\sistema-iblv\src\IBLV.Web.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\IBVL\sistema-iblv\src\IBLV.Web.Api\bin\Debug\net6.0\IBVL.Application.dll
+C:\IBVL\sistema-iblv\src\IBLV.Web.Api\bin\Debug\net6.0\IBVL.Application.pdb

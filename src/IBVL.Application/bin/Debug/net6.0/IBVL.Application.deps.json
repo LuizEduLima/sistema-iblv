@@ -1,0 +1,129 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "IBVL.Application/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "IBVL.Domain": "1.0.0"
+        },
+        "runtime": {
+          "IBVL.Application.dll": {}
+        }
+      },
+      "AutoMapper/11.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.1.0"
+          }
+        }
+      },
+      "FluentValidation/11.2.0": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.2.0.0"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.2.0": {
+        "dependencies": {
+          "FluentValidation": "11.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.2.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18136"
+          }
+        }
+      },
+      "IBVL.Domain/1.0.0": {
+        "dependencies": {
+          "IBVL.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "IBVL.Domain.dll": {}
+        }
+      },
+      "IBVL.Domain.Core/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "11.2.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.2.0"
+        },
+        "runtime": {
+          "IBVL.Domain.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IBVL.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/11.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WIadGC1pIwbnyTubvI577p3F++Bsj9q2Q3OaAc1I0QS+JhupN1xkdrPBhI9bPIeg63zM81tZplUNYkqU1HE5jQ==",
+      "path": "automapper/11.0.1",
+      "hashPath": "automapper.11.0.1.nupkg.sha512"
+    },
+    "FluentValidation/11.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KV1YBM8T4plLKmShjxfmHMF6X1lDuXgyqE+t8NYNxb7jmMbPnA3u30RsuXAf2NYMv0TBCUQguI2Z6W17c/Dh1A==",
+      "path": "fluentvalidation/11.2.0",
+      "hashPath": "fluentvalidation.11.2.0.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-55xipVg5TvAvnod7QqOw5ewMp2FpZ42iwKsJ4iAoxtlXD33CtdKm7h1JDPTE5aD1ODLEqfaUijqqCqO4f5Wx9Q==",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.2.0",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.11.2.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8/CtASu80UIoyG+r8FstrmZW5GLtXxzoYpjj3jV0FKZCL5CiFgSH3pAmqut/dC68mu7N1bU6v0UtKKL3gCUQGQ==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    },
+    "IBVL.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IBVL.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

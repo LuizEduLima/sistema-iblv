@@ -16,36 +16,26 @@ namespace IBVL.Domain.Entities
         public string? Nome { get; private set; }
         public string? Email { get; private set; }
         public string? Senha { get; private set; }
+        public bool Ativo { get; private set; }
 
-        public  Membro? Membro { get; set; }
+        public Membro? Membro { get; private set; }
 
-        protected Usuario()
-        {
-
-        }
+        protected Usuario(){}
         public Usuario(string? nome, string? email, string? senha)
         {
             Nome = nome;
             Email = email;
             Senha = senha;
+            Ativo = true;
         }
 
         public override ValidationResult Validate => new UsuarioValidator().Validate(this);
 
-        private bool _ativo;
-
-        public void Ativar() => _ativo = true;
-        public void Desativar() => _ativo = false;
-        public bool Ativo() => _ativo;
-
-        public void SouMembro(Membro membro)
-        {
-            Membro = membro;
-        }
-        public void AtualizarMeusDados(Membro membro)
-        {
-            Membro = membro;
-        }
+      
+        public void Ativar() => Ativo = true;
+        public void Desativar() => Ativo = false;
+        
+       
 
 
 

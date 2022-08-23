@@ -8,14 +8,16 @@ using System.Threading.Tasks;
 
 namespace IBVL.Domain.Core.Interfaces
 {
-    public interface IBaseRepository<T> where T : Entity
+    public interface IBaseRepository<T>: IRepository, IDisposable where T : Entity
     {
-        Task Adicionar(T entity);
-        Task Atualizar(T entity);
-        Task Remover(Guid id);
-        T ObterPorId(Guid id);
-        Task<IEnumerable<T>> ObterTodos();
-        Task<IEnumerable<T>> BuscarGenerica(Func<Expression,bool>predicate);
+        Task AdicionarAsync(T entity);
+        Task AtualizarAsync(T entity);
+        Task RemoverAsync(Guid id);
+        Task<T> ObterPorIdAsync(Guid id);
+        Task<IEnumerable<T>> ObterTodosAsync();
+        Task<IEnumerable<T>> ObterTodosAsync(int page, int limit);
+        Task<IEnumerable<T>> BuscarGenericaAsync(Expression<Func<T, bool>> predicate);
+      
 
     }
 }

@@ -1,32 +1,29 @@
-﻿using FluentValidation.Results;
+﻿
+using FluentValidation.Results;
 using IBVL.Domain.Core.AbstractValue;
 using IBVL.Domain.Valitadors;
-using System.ComponentModel.DataAnnotations.Schema;
-
 namespace IBVL.Domain.Entities
 {
     public class Endereco : Entity
     {
-        [ForeignKey("MembroId")]
-        public Guid MembroId { get; private set; }
-        public string Logradouro { get; private set; }
-        public string Complemento { get; private set; }
-        public string Numero { get; private set; }
-        public string Cep { get; private set; }
-        public string Bairro { get; private set; }
-        public string Cidade { get; private set; }
-        public char Estado { get; private set; }
+        //[ForeignKey("MembroId")]
+        public Guid MembroId { get; set; }
+        public string Logradouro { get;  set; }
+        public string Complemento { get;  set; }
+        public string Numero { get;  set; }
+        public string Cep { get;  set; }
+        public string Bairro { get;  set; }
+        public string Cidade { get;  set; }
+        public string Estado { get;  set; }
+        public Membro Membro { get;   set; }
 
-   
-        public Membro Membro { get;  set; }
+        public override ValidationResult Validate => new EnderecoValidator().Validate(this);
 
-        protected Endereco()
-        {
+     
 
-        }
         public Endereco(string logradouro, string complemento,
                         string numero, string cep, string bairro,
-                        string cidade, char estado, Membro membro)
+                        string cidade, string estado,Guid membroId)
         {
             Logradouro = logradouro;
             Complemento = complemento;
@@ -35,10 +32,11 @@ namespace IBVL.Domain.Entities
             Bairro = bairro;
             Cidade = cidade;
             Estado = estado;
-            Membro = membro;
-        }      
+            MembroId = membroId;
+         
+        }
+
        
-        public override ValidationResult Validate => new EnderecoValidator().Validate(this);
     }
 }
 

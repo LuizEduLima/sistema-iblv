@@ -23,8 +23,8 @@ C:\IBVL\sistema-iblv\src\IBVL.Data\bin\Debug\net6.0\IBVL.Data.dll
 C:\IBVL\sistema-iblv\src\IBVL.Data\bin\Debug\net6.0\IBVL.Data.pdb
 C:\IBVL\sistema-iblv\src\IBVL.Data\bin\Debug\net6.0\IBVL.Domain.Core.dll
 C:\IBVL\sistema-iblv\src\IBVL.Data\bin\Debug\net6.0\IBVL.Domain.dll
-C:\IBVL\sistema-iblv\src\IBVL.Data\bin\Debug\net6.0\IBVL.Domain.pdb
 C:\IBVL\sistema-iblv\src\IBVL.Data\bin\Debug\net6.0\IBVL.Domain.Core.pdb
+C:\IBVL\sistema-iblv\src\IBVL.Data\bin\Debug\net6.0\IBVL.Domain.pdb
 C:\IBVL\sistema-iblv\src\IBVL.Data\obj\Debug\net6.0\IBVL.Data.csproj.AssemblyReference.cache
 C:\IBVL\sistema-iblv\src\IBVL.Data\obj\Debug\net6.0\IBVL.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\IBVL\sistema-iblv\src\IBVL.Data\obj\Debug\net6.0\IBVL.Data.AssemblyInfoInputs.cache

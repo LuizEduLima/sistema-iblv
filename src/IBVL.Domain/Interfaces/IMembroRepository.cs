@@ -1,4 +1,5 @@
-﻿using IBVL.Domain.Core.Interfaces;
+﻿using IBVL.Domain.Core.Enums;
+using IBVL.Domain.Core.Interfaces;
 using IBVL.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,6 @@ namespace IBVL.Domain.Interfaces
 {
     public interface IMembroRepository: IRepository, IBaseRepository<Membro>
     {
-        
+       
     }
 }

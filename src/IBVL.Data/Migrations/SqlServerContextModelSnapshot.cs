@@ -50,6 +50,9 @@ namespace IBVL.Data.Migrations
                     b.Property<DateTime?>("DataAtualizacao")
                         .HasColumnType("datetime2");
 
+                    b.Property<DateTime?>("DataCriacao")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Estado")
                         .IsRequired()
                         .HasColumnType("nvarchar(1)");
@@ -83,7 +86,10 @@ namespace IBVL.Data.Migrations
                     b.Property<DateTime?>("DataAtualizacao")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("DateDeNascimmento")
+                    b.Property<DateTime?>("DataCriacao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataDeNascimmento")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("EstadoCivil")
@@ -125,7 +131,13 @@ namespace IBVL.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<bool>("Ativo")
+                        .HasColumnType("bit");
+
                     b.Property<DateTime?>("DataAtualizacao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DataCriacao")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Email")

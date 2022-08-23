@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -8,11 +8,8 @@
 
   <ItemGroup>
     <Compile Remove="Configurations\**" />
-    <Compile Remove="Repositories\**" />
     <EmbeddedResource Remove="Configurations\**" />
-    <EmbeddedResource Remove="Repositories\**" />
     <None Remove="Configurations\**" />
-    <None Remove="Repositories\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,7 +27,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\IBVL.Domain.Core\IBVL.Domain.Core.csproj" />
     <ProjectReference Include="..\IBVL.Domain\IBVL.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
   </ItemGroup>
 
 </Project>

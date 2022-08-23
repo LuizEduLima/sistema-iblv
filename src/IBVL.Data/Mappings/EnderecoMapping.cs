@@ -19,6 +19,7 @@ namespace IBVL.Data.Mappings
             builder.Property(x => x.Bairro)
                  .IsRequired()
                  .HasMaxLength(80);
+              
 
             builder.Property(x => x.Numero)
                 .IsRequired();

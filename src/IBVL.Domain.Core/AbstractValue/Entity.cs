@@ -10,8 +10,8 @@ namespace IBVL.Domain.Core.AbstractValue
     public abstract class Entity
     {
 
-        public Guid Id { get; }
-        public DateTime DataCriacao { get; }
+        public Guid Id { get; set; }
+        public DateTime? DataCriacao { get; set; }
         private DateTime? _dataAtualizacao;
 
         public Entity()

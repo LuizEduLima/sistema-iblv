@@ -1,4 +1,5 @@
-﻿using FluentValidation;
+﻿
+using FluentValidation;
 using IBVL.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,8 +11,11 @@ namespace IBVL.Domain.Valitadors
 {
     public class EnderecoValidator : AbstractValidator<Endereco>
     {
+       
+
         public EnderecoValidator()
         {
+
             RuleFor(e => e.Estado)
                 .NotEmpty();
 
@@ -29,23 +33,25 @@ namespace IBVL.Domain.Valitadors
             RuleFor(e => e.Cep)
               .NotEmpty()
               .Length(8);
+
             RuleFor(e => e.Cidade)
-              .NotEmpty()
-              .Length(50);
+            .NotEmpty()
+            .MinimumLength(2)
+            .MaximumLength(80);
 
 
             RuleFor(e => e.Complemento)
            .NotEmpty()
-           .Length(100);
+           .MinimumLength(2)
+           .MaximumLength(80);
 
             RuleFor(e => e.Numero)
             .NotEmpty()
-            .Length(12);
-
-            
-
-
+            .MinimumLength(2)
+            .MaximumLength(80);
 
         }
+
+       
     }
 }

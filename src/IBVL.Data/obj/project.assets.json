@@ -1957,6 +1957,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "IBVL.Domain >= 1.0.0",
+      "IBVL.Domain.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Relational >= 6.0.8",
@@ -1995,6 +1996,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain.Core\\IBVL.Domain.Core.csproj": {
+              "projectPath": "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain.Core\\IBVL.Domain.Core.csproj"
+            },
             "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain\\IBVL.Domain.csproj": {
               "projectPath": "C:\\IBVL\\sistema-iblv\\src\\IBVL.Domain\\IBVL.Domain.csproj"
             }

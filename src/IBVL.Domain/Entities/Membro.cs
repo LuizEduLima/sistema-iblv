@@ -13,51 +13,68 @@ namespace IBVL.Domain.Entities
 {
     public class Membro : Entity
     {
-     
-        public string Nome { get; private set; }
-        public DateTime DateDeNascimmento { get; private set; }
-        public EstadoCivil EstadoCivil { get; private set; }
-        public string TelefoneResidencia { get; private set; }
-        public string TelefoneCelular { get; private set; }
-        public string TelefoneContato { get; private set; }
 
-        public string? Foto { get; set; }
+        public string Nome { get;  set; }
+        public DateTime DataDeNascimmento { get;  set; }
+        public EstadoCivil EstadoCivil { get;  set; }
+        public string TelefoneResidencia { get;  set; }
+        public string TelefoneCelular { get;  set; }
+        public string TelefoneContato { get;  set; }
+        public string? Foto { get;  set; }
+        public Endereco Endereco { get;  set; }
+        public Guid UsuarioId { get; set; }
+       // public Usuario Usuario { get; set; }
 
-    
-        public  Endereco Endereco { get; private set; }
-        public Guid UsuarioId { get; private set; }
-        public  Usuario Usuario { get; set; }
+        public Membro() { }
 
-        protected Membro()
-        {
 
-        }
-      
-
-        public Membro(string nome, DateTime dataDeNascimento, string? foto, EstadoCivil estadoCivil,
-                     string telefoneResidencia, string telefoneCelular,
+        public Membro(string nome, DateTime dataDeNascimento,
+                      string? foto, EstadoCivil estadoCivil,
+                      string telefoneResidencia, string telefoneCelular,
                       string telefoneContato)
         {
             Nome = nome;
-            DateDeNascimmento = dataDeNascimento;
+            DataDeNascimmento = dataDeNascimento;
             Foto = foto;
             EstadoCivil = estadoCivil;
-            
+
             TelefoneResidencia = telefoneResidencia;
             TelefoneCelular = telefoneCelular;
             TelefoneContato = telefoneContato;
         }
+        public Membro(string nome, DateTime dataDeNascimento,
+                      EstadoCivil estadoCivil,
+                      string telefoneResidencia, string telefoneCelular,
+                      string telefoneContato,Endereco endereco)
+        {
+            Nome = nome;
+            DataDeNascimmento = dataDeNascimento;         
+            EstadoCivil = estadoCivil;
+
+            TelefoneResidencia = telefoneResidencia;
+            TelefoneCelular = telefoneCelular;
+            TelefoneContato = telefoneContato;
+            Endereco = endereco;
+        }
 
         public override ValidationResult Validate => new MembroValidator().Validate(this);
-
         public void AdicionarFoto(string foto) => Foto = foto;
-        public void AtualizarEstaoCivil(EstadoCivil estadoCivil)
+        public void AtualizarFoto(string foto) => Foto = foto;
+        public void AtualizarEstadoCivil(EstadoCivil estadoCivil)
         {
             EstadoCivil = EstadoCivil;
+        }
+        public void AdicionarEndereco(Endereco novoendereco)
+        {
+            Endereco = novoendereco;
         }
         public void AtualizarEndereco(Endereco novoendereco)
         {
             Endereco = novoendereco;
+        }
+        public void AtualizarNome(string nome)
+        {
+            Nome = nome;
         }
         public void AtualizarTelefoneResidencia(string numero) => TelefoneResidencia = numero;
         public void AtualizarTelefoneCelular(string numero) => TelefoneCelular = numero;

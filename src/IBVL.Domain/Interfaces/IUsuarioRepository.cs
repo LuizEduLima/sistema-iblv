@@ -8,8 +8,11 @@ using System.Threading.Tasks;
 
 namespace IBVL.Domain.Interfaces
 {
-    public interface IUsuarioRepository : IRepository, IBaseRepository<Usuario>
+    public interface IUsuarioRepository : IBaseRepository<Usuario>
     {
         Task<Membro> AtualizarMeusDados(Membro membro);
+        Task<bool> Ativar(Usuario usuario);
+        Task<bool> Desativar(Usuario usuario);
+     
     }
 }

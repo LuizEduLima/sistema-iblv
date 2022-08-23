@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Q/4iaQW4XeQ4KYD1bU/QoPV6SuAmw4nsPsozwyHKUUrMd/LYP1IQP+tcXmhB2MOeG4BIy0y1TGeuGpJ6w1Ax0A==",
+  "dgSpecHash": "QIJzKeAJ5azmlHNl3cSYV0gRvRIJz6WkY7cmHO7DqfkDcBEajFJjR9VtE7h2M4VEXaKKhvVPu2g+0i5q0VWLAA==",
   "success": true,
   "projectFilePath": "C:\\IBVL\\sistema-iblv\\src\\IBLV.Web.Api\\IBLV.Web.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\LEL\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\LEL\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\LEL\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
     "C:\\Users\\LEL\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.0\\fluentvalidation.dependencyinjectionextensions.11.2.0.nupkg.sha512",
-    "C:\\Users\\LEL\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\LEL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\LEL\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\LEL\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\LEL\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",

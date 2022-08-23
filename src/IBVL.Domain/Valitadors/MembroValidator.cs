@@ -14,15 +14,17 @@ namespace IBVL.Domain.Valitadors
         {
             RuleFor(m => m.Nome)
                 .NotEmpty()
-                .Length(100);
+                .MinimumLength(2)
+                .MaximumLength(100);
 
             RuleFor(m => m.TelefoneCelular)
                 .NotEmpty();
 
-            RuleFor(m => m.DateDeNascimmento)
+            RuleFor(m => m.DataDeNascimmento)
                 .NotEmpty();
-            RuleFor(m => m.Endereco)
-                .NotEmpty();
+
+            //RuleFor(m => m.Endereco)
+            //    .NotEmpty();
 
             RuleFor(m => m.EstadoCivil)
                 .NotEmpty();

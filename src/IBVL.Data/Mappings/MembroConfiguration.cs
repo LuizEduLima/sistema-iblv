@@ -19,11 +19,11 @@ namespace IBVL.Data.Mappings
                 .IsRequired()
                 .HasMaxLength(100);
 
-            builder.Property(m => m.DateDeNascimmento)
+            builder.Property(m => m.DataDeNascimmento)
                 .IsRequired();
 
-                 builder.Property(m => m.Endereco)
-                .IsRequired();
+            builder.Property(m => m.Endereco)
+           .IsRequired();
 
             builder.Property(m => m.EstadoCivil)
                .IsRequired();
@@ -33,8 +33,8 @@ namespace IBVL.Data.Mappings
                .IsRequired();
             builder.Ignore(m => m.Endereco);
 
-            builder.HasOne(m => m.Usuario)
-                .WithOne(u => u.Membro);
+            //builder.HasOne(m => m.Usuario)
+            //    .WithOne(u => u.Membro);
                 
                 
 

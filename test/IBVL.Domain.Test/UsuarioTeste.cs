@@ -39,7 +39,7 @@ namespace IBVL.Domain.Test
 
             Assert.False(usuario.DataAtualizacao.HasValue);
             usuario.Ativar();
-            Assert.True(usuario.Ativo());
+            Assert.True(usuario.Ativo);
         }
 
         [Fact(DisplayName = "Usuário campo Ativo Desativado")]
@@ -51,7 +51,7 @@ namespace IBVL.Domain.Test
             Assert.False(usuario.DataAtualizacao.HasValue);
 
             usuario.Desativar();
-            Assert.False(usuario.Ativo());
+            Assert.False(usuario.Ativo);
         }
     }
 }
