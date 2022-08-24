@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace IBVL.Domain.Entities
 {
-    public class Teste_git
+    public class ClasseTeste02
     {
+        //classe teste para uma nova branch de nome teste
     }
 }
